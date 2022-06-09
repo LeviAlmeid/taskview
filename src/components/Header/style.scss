@@ -1,0 +1,23 @@
+
+.container{
+    background: #0c0222;
+
+    & .content{
+        max-width: 1700px;
+        margin: 0 auto;
+    }
+}
+
+
+.logo{
+    font-size: 5vh;
+    font-weight: bolder;
+    font-style: italic;
+    text-shadow: 2px 2px #002fff;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    & a{
+        text-decoration: none;
+        color: whitesmoke;
+    }
+}
