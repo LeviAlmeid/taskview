@@ -1,0 +1,31 @@
+.content-home{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  height: calc(100vh - 4rem);
+}
+
+.home-col-a,
+.home-col-b{
+  height: 100%;
+  width: 50%;
+  padding: 2rem 0;
+}
+
+.home-col-a{
+  background: var(--blue-ligth);
+}
+.cent{
+  height: 100%;
+  display: flex;
+}
+
+.content-col-b{
+  width: 70%;
+  margin: auto;
+  border-radius: 3rem;
+  box-shadow: 0 0 1em rgb(207, 203, 177);
+  padding: 3rem 2rem;
+  display: block;
+}

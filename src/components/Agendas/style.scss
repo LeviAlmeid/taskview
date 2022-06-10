@@ -1,0 +1,13 @@
+.agenda-content {
+  padding-top: 2rem;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+
+  & .itens{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-direction: row;
+    gap: 1rem;
+}
+}

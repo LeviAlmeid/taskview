@@ -1,12 +1,17 @@
 import './style.scss'
 
-export function Header(){
-    return(
+export function Header({onOpenNewTransactionModal}) {
+    return (
         <header>
-            <div className="container">
+            <div className="header-container">
                 <div className="content">
-                    <div class="logo"><a href="/"> taskview</a></div>
-                    <h3><a href="/Agendas">Agendas</a></h3>
+                    <a href="/" className='logo'>taskview</a>
+
+                    <ul>
+                        <li><a href="/Agendas">Agendas</a></li>
+                        <li><a href="#">Minhas Agendas</a></li>
+                        <button type='button' onClick={onOpenNewTransactionModal}>Login</button>
+                    </ul>
                 </div>
             </div>
         </header>

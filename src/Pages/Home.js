@@ -1,11 +1,9 @@
-import { Cadastro } from "../components/Cadastro";
-import { Header } from "../components/Header";
+import { HomeCont } from "../components/Home";
 
 export function Home() {
     return (
         <>
-            <Header />
-            <Cadastro />
+            <HomeCont />
         </>
 
 

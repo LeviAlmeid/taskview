@@ -3,10 +3,6 @@ import { AgendasComp } from "../components/Agendas";
 
 export function Agendas(){
     return(
-        <>
-        <Header />
         <AgendasComp />
-    
-        </>
     )
 }

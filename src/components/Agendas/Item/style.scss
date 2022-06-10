@@ -1,0 +1,65 @@
+.agendas-item {
+  width: 19rem;
+  height: 250px;
+  padding-inline: 0.8rem;
+  border-radius: 1rem;
+  transition: width 0.3s, height 0.5s;
+  box-shadow: 0 0 1em rgb(207, 203, 177);
+  cursor: pointer;
+  overflow: hidden;
+  align-items: center;
+  position: relative;
+  margin: auto;
+  margin-top: 1rem;
+
+
+  & .cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.2rem;
+    height: 150px;
+    text-align: center;
+  }
+
+  & .cont h4 {
+    font-weight: 400;
+    text-overflow: clip;
+    overflow: hidden;
+  }
+
+  & .title-item {
+    display: flex;
+    overflow-x: hidden;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    font-size: 20px !important;
+    border-bottom: 1px solid rgba(27, 26, 26, 0.432);
+
+
+  }
+   
+  & .title-buttons{
+    display: flex;
+    gap: .5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: black;
+    transition: all ease 0.2s;
+
+    & .bi-pen{
+      color: blue;
+  }
+}
+
+  & .footer{
+    display: flex;
+    overflow-x: hidden;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    font-size: 15px!important;
+    border-top: 1px solid rgba(27, 26, 26, 0.432);
+  }
+}
